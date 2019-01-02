@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+
+    box-sizing: border-box;
+}
+
+html {
+    background-image: linear-gradient(to bottom left, white, white, #80AED6);
+
+}
+
+
+header {
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.container {
+    width: 95%;
+    max-width: 70em;
+    margin: 0 auto;
+}
+
+/* typography */
+
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+    margin-top: 0;
+}
+
+p {
+    font-size: 1em;
+    margin-top: 0;
+    line-height: 1.5;
+}
+
+
+
+.title {
+    font-size: 2em;
+    margin-bottom: 1.2em;
+    font-weight: 900;
+    margin-top: 1em;
+}
+
+.title span {
+    font-weight: 300;
+    display: block;
+    font-size: .9em;
+}
+
+@media (min-width:60rem) {
+
+    p {
+        font-size: 1.2rem;
+        line-height: 1.6;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }
+}
+
+.current{
+    color: darkorange;
+}
+
+
+/* buttons */
+
+.button {
+    display: inline-block;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 2px;
+    padding: .5em 1.75em;
+
+}
+
+
+.button:hover {
+    color: darkorange;
+}
+
+.linkToFolio {
+    color: steelblue;
+    border-color: steelblue;
+
+}
+
+
+
+@media (min-width: 60rem) {}
+
+.button {
+    font-size: 1.5em;
+}
+
+@media (max-width: 60rem) {
+    body {
+        text-align: center;
+    }
+
+    .button {
+        font-size: 1.5em;
+    }
+}
+
+
+/* Header */
+
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 1em;
+}
+
+ul {
+    margin: 1.8em;
+    padding: 0;
+    list-style: none;
+}
+
+
+li {
+    display: inline-block;
+}
+
+nav a {
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .9rem;
+    padding: 1.5em;
+    color: black;
+
+}
+
+nav a:hover,
+nav a:focus {
+    color: steelblue;
+}
+
+@media (min-width:60rem) {
+    .logo {
+        float: left;
+    }
+
+
+    nav {
+        float: right;
+    }
+}
+
+.logo {
+    width: 100px;
+    height: 100%;
+}
+
+/* home hero */
+
+
+.home-hero {
+
+    padding: 17em 0;
+    color: black;
+}
+
+footer {
+    text-align: right;
+}
+
+
+/* SOCIAL */
+
+.Social {
+    text-align: center;
+}
+
+.instagram {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.instagram:hover {
+    background-color: steelblue;
+    border-radius: 5px;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.facebook {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.facebook:hover {
+    background-color: steelblue;
+    border-radius: 5px;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.dribble {
+    width: 30px;
+    height: 30px;
+    border-radius: 15%;
+}
+
+.dribble:hover {
+    background-color: steelblue;
+    border-radius: 5px;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.linkedIn {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.linkedIn:hover {
+    background-color: steelblue;
+    border-radius: 5px;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+
+
+/* JAVASCRIPT WRAPPER */
+
+.button1 {
+    color: steelblue;
+    border-color: steelblue;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 10px;
+    border-width: 2px;
+    padding: .030em 1.5em;
+
+}
+
+.button1:hover {
+    color: black;
+    background-color: white;
+    border-color: black;
+    -o-transition: 1s;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -webkit-transition: 1s;
+    transition: 1s;
+
+}
+
+
+.formWrapper {
+    position: relative;
+}
+
+.rotated {
+    transform: rotateX(-90deg);
+}
+
+.rotateToVisible {
+    animation: rotateToVisible 2s forwards;
+    transform-origin: top;
+
+}
+
+
+@keyframes rotateToVisible {
+    0% {
+        transform: rotateX(-90deg);
+    }
+
+    30% {
+        transform: rotateX(30deg);
+    }
+
+
+    100% {
+        transform: rotateX(0);
+    }
+}
+

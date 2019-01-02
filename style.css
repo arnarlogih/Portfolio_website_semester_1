@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+
+    box-sizing: border-box;
+}
+
+html {
+  background-image: linear-gradient(to bottom left, white, white,  #80AED6);
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.container {
+    width: 95%;
+    max-width: 70em;
+    margin: 0 auto;
+}
+
+/* typography */
+
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+    margin-top: 0;
+}
+
+p {
+    font-size: 1em;
+    margin-top: 0;
+    line-height: 1.5;
+}
+
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5em;
+    font-weight: 900;
+    margin-top: 1em;
+}
+
+.title span {
+    font-weight: 300;
+    display: block;
+    font-size: .9em;
+}
+
+@media (min-width:60rem) {
+
+    p {
+        font-size: 1.2rem;
+        line-height: 1.6;
+    }
+
+    .title {
+        font-size: 3.7rem;
+    }
+}
+
+.current{
+    color: darkorange;
+}
+
+
+/* buttons */
+
+.button {
+    display: inline-block;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 2px;
+    border-style: solid;
+    padding: .5em 1.75em;
+    border-radius: 10px;
+}
+
+.button-accent {
+    color: steelblue;
+    border-color: steelblue;
+
+}
+
+.button-accent:hover,
+.button-accent:focus {
+    color: black;
+    background-color: white;
+    border-color: black;
+    -o-transition: 1s;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -webkit-transition: 1s;
+    transition: 1s;
+
+}
+
+@media (min-width: 60rem) {
+    .button {
+        font-size: 1.5rem;
+    }
+}
+
+/* Header */
+
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 1em;
+}
+
+ul {
+    margin: 1.8em;
+    padding: 0;
+    list-style: none;
+}
+
+
+li {
+    display: inline-block;
+}
+
+nav a {
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .9rem;
+    padding: 1.5em;
+    color: black;
+}
+
+a:hover,
+a:focus {
+    color: #80AED6;
+}
+
+@media (min-width:60rem) {
+    .logo {
+        float: left;
+    }
+    nav {
+        float: right;
+    }
+}
+
+.logo {
+    width: 100px;
+    height: 100%;
+}
+
+/* home hero */
+
+
+.home-hero {
+
+    padding: 17em 0;
+    color: black;
+}
+
+footer {
+    text-align: right;
+}
+
+
+/* SOCIAL */
+
+.instagram {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.instagram:hover {
+    background-color: steelblue;
+    border-radius: 5px;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.facebook {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.facebook:hover {
+    background-color: steelblue;
+    border-radius: 5px;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.dribble {
+    width: 30px;
+    height: 30px;
+    border-radius: 15%;
+}
+
+.dribble:hover {
+    background-color: steelblue;
+    border-radius: 5px;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.linkedIn {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.linkedIn:hover {
+    background-color: steelblue;
+    border-radius: 5px;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
