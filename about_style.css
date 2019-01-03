@@ -23,6 +23,12 @@ header {
 img {
     max-width: 100%;
     height: auto;
+    border-width: 2px;
+}
+.border{
+    border-style: solid;
+    border-color: black;
+    box-shadow: 5px 5px 5px grey;
 }
 
 
@@ -108,12 +114,10 @@ p {
 .button-accent {
     color: steelblue;
     border-color: steelblue;
-
-
 }
 
 .button-accent:hover,
-.button-accent:focus {
+.button-accent:focus{
     color: black;
     background-color: white;
     border-color: black;
@@ -122,7 +126,10 @@ p {
     -moz-transition: 1s;
     -webkit-transition: 1s;
     transition: 1s;
+    box-shadow: 5px 5px 5px grey;
 }
+
+
 
 @media (min-width: 60rem) {
     .button {
@@ -184,7 +191,6 @@ nav a:focus {
     width: 100px;
     height: 100%;
 }
-
 /* home hero */
 
 
