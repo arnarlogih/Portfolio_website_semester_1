@@ -9,6 +9,11 @@ html {
   background-image: linear-gradient(to bottom left, white, white,  #80AED6);
 }
 
+/*BURGER*/
+
+
+
+/*OTHER*/
 
 body {
     margin: 0;
@@ -113,6 +118,12 @@ p {
     .button {
         font-size: 1.5rem;
     }
+    .logo {
+        float: left;
+    }
+    nav {
+        float: right;
+    }
 }
 
 /* Header */
@@ -149,15 +160,6 @@ a:focus {
     color: #80AED6;
 }
 
-@media (min-width:60rem) {
-    .logo {
-        float: left;
-    }
-    nav {
-        float: right;
-    }
-
-}
 
 .logo {
     width: 100px;

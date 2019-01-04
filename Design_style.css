@@ -33,6 +33,9 @@ img {
     margin: 1em;
 }
 
+.color {
+    display: contents;
+}
 
 .container {
     width: 95%;
@@ -43,6 +46,9 @@ img {
 .spotify {
     text-decoration: none;
     color: darkorange;
+}
+.spotify:hover{
+    color: steelblue;
 }
 
 /* typography */
@@ -72,9 +78,8 @@ p {
 
 .title {
     font-size: 2.5rem;
-    margin-bottom: 1.5em;
+    margin-bottom: 1.2em;
     font-weight: 900;
-    margin-top: 1em;
 }
 
 .title span {
@@ -175,7 +180,7 @@ nav a:focus {
     color: #80AED6;
 }
 
-@media (min-width:60rem) {
+@media (min-width:600px) {
     .logo {
         float: left;
     }
@@ -283,18 +288,11 @@ footer {
     transition: 1s cubic-bezier(.12,.21,.19,.91);
 }
 
-.box1:hover,
-.box2:hover,
-.box3:hover,
-.box4:hover,
-.box5:hover{
-    width: 75%;
-}
-
 .box2{
     width: 5em;
     height: 5em;
     background-color: steelblue;
+    color: white;
     margin: left;
     transition: 1s cubic-bezier(.12,.21,.19,.91);
 }
@@ -310,6 +308,7 @@ footer {
     width: 5em;
     height: 5em;
     background-color: black;
+    color: white;
     margin: left;
     transition: 1s cubic-bezier(.12,.21,.19,.91);
 }
@@ -319,4 +318,12 @@ footer {
     background-color: white;
     margin: left;
     transition: 1s cubic-bezier(.12,.21,.19,.91);
+}
+
+.box1:hover,
+.box2:hover,
+.box3:hover,
+.box4:hover,
+.box5:hover{
+    width: 75%;
 }
