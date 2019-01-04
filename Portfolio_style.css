@@ -16,14 +16,8 @@ header {
 }
 
 body {
-    margin: 0;
+    margin: 1em;
     font-family: 'Raleway', sans-serif;
-}
-
-
-img {
-    max-width: 100%;
-    height: auto;
 }
 
 
@@ -92,10 +86,7 @@ p {
 
 }
 
-@media (max-width: 60rem) {
-    body {
-        text-align: center;
-    }
+@media (min-width: 600px) {
 
     .button {
         font-size: 1.5em;
@@ -118,6 +109,12 @@ p {
         float: right;
     }
 }
+@media max-width: 600px) {
+    body {
+        text-align: center;
+    }
+}
+
 
 
 /* Header */

@@ -12,11 +12,10 @@ html {
 /*BURGER*/
 
 
-
 /*OTHER*/
 
 body {
-    margin: 0;
+    margin: 1em;
     font-family: 'Raleway', sans-serif;
     text-align: center;
 }
