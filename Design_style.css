@@ -88,15 +88,24 @@ p {
     font-size: .9em;
 }
 
-@media (min-width:60rem) {
+@media (min-width:800px) {
 
     p {
         font-size: 1.2rem;
         line-height: 1.6;
     }
-
     .title {
         font-size: 3.7rem;
+    }
+     .button {
+        font-size: 1.5rem;
+    }
+     .logo {
+        float: left;
+    }
+
+    nav {
+        float: right;
     }
 }
 
@@ -137,14 +146,6 @@ p {
 }
 
 
-
-@media (min-width: 60rem) {
-    .button {
-        font-size: 1.5rem;
-    }
-}
-
-
 /* Header */
 
 header {
@@ -178,17 +179,6 @@ nav a {
 nav a:hover,
 nav a:focus {
     color: #80AED6;
-}
-
-@media (min-width:600px) {
-    .logo {
-        float: left;
-    }
-
-
-    nav {
-        float: right;
-    }
 }
 
 .logo {

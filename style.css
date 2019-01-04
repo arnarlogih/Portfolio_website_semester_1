@@ -64,18 +64,6 @@ p {
     font-size: .9em;
 }
 
-@media (min-width:60rem) {
-
-    p {
-        font-size: 1.2rem;
-        line-height: 1.6;
-    }
-
-    .title {
-        font-size: 3.7rem;
-    }
-}
-
 .current{
     color: darkorange;
 }
@@ -114,7 +102,7 @@ p {
 
 }
 
-@media (min-width: 60rem) {
+@media (min-width: 800px) {
     .button {
         font-size: 1.5rem;
     }
@@ -123,6 +111,13 @@ p {
     }
     nav {
         float: right;
+    }
+      p {
+        font-size: 1.2rem;
+        line-height: 1.6;
+    }
+    .title {
+        font-size: 3.7rem;
     }
 }
 
