@@ -93,16 +93,12 @@ p {
     }
 
     p {
-        font-size: 1.2rem;
+        font-size: 1.2em;
         line-height: 1.6;
     }
 
     .title {
-        font-size: 2.5rem;
-    }
-
-    .logo {
-        float: left;
+        font-size: 3.7em;
     }
 
     nav {
@@ -112,6 +108,13 @@ p {
 @media max-width: 600px) {
     body {
         text-align: center;
+    }
+}
+
+@media (min-width: 300px){
+    .arnar{
+        padding-left: 15em;
+        line-height: 3.3em;
     }
 }
 
@@ -127,7 +130,7 @@ header {
 }
 
 ul {
-    margin: 1.8em;
+    margin: 1em;
     padding: 0;
     list-style: none;
 }
@@ -141,8 +144,8 @@ nav a {
     font-weight: 900;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: .9rem;
-    padding: 1.5em;
+    font-size: .9em;
+    padding: 1.2em;
     color: black;
 
 }
@@ -156,6 +159,7 @@ nav a:focus {
 .logo {
     width: 100px;
     height: 100%;
+    float: left;
 }
 
 /* home hero */
@@ -163,7 +167,7 @@ nav a:focus {
 
 .home-hero {
 
-    padding: 17em 0;
+    padding: 18em 0;
     color: black;
 }
 

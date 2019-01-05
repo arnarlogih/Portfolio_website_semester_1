@@ -101,22 +101,26 @@ p {
 
 }
 
-@media (min-width: 800px) {
+@media (min-width: 600px) {
     .button {
         font-size: 1.5rem;
-    }
-    .logo {
-        float: left;
     }
     nav {
         float: right;
     }
       p {
-        font-size: 1.2rem;
+        font-size: 1.2em;
         line-height: 1.6;
     }
     .title {
-        font-size: 3.7rem;
+        font-size: 3.7em;
+    }
+}
+
+@media (min-width: 300px){
+    .arnar{
+        padding-left: 15em;
+        line-height: 3.3em;
     }
 }
 
@@ -130,7 +134,7 @@ header {
 }
 
 ul {
-    margin: 1.8em;
+    margin: 1em;
     padding: 0;
     list-style: none;
 }
@@ -145,7 +149,7 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     font-size: .9rem;
-    padding: 1.5em;
+    padding: 1.2em;
     color: black;
 }
 
@@ -158,6 +162,7 @@ a:focus {
 .logo {
     width: 100px;
     height: 100%;
+    float: left;
 }
 
 /* home hero */
@@ -165,7 +170,7 @@ a:focus {
 
 .home-hero {
 
-    padding: 17em 0;
+    padding: 18em 0;
     color: black;
 }
 

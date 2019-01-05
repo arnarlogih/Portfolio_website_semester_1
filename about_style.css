@@ -98,6 +98,7 @@ p {
     border-style: solid;
     padding: .5em 1.75em;
     border-radius: 10px;
+    text-align: center;
 }
 
 .button-accent {
@@ -132,12 +133,16 @@ p {
     .title {
         font-size: 3.7rem;
     }
-      .logo {
-        float: left;
-    }
 
     nav {
         float: right;
+    }
+}
+
+@media (min-width: 300px){
+    .arnar{
+        padding-left: 15em;
+        line-height: 3.3em;
     }
 }
 
@@ -155,7 +160,7 @@ header {
 }
 
 ul {
-    margin: 1.8em;
+    margin: 1em;
     padding: 0;
     list-style: none;
 }
@@ -171,7 +176,7 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     font-size: .9rem;
-    padding: 1.5em;
+    padding: 1.2em;
     color: black;
 }
 
@@ -183,6 +188,7 @@ nav a:focus {
 .logo {
     width: 100px;
     height: 100%;
+    float: left;
 }
 /* home hero */
 
@@ -191,7 +197,6 @@ nav a:focus {
 
     padding: 17em 0;
     color: black;
-    background-size: cover;
 
 }
 
