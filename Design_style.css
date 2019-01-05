@@ -24,6 +24,12 @@ img {
     height: auto;
     border-width: 2px;
 }
+.java{
+    width: 50%;
+    border-radius: 10px;
+
+}
+
 .border{
     border-style: solid;
     border-color: black;
@@ -191,7 +197,6 @@ nav a:focus {
 
 
 .home-hero {
-
     padding: 18em 0;
     color: black;
 }

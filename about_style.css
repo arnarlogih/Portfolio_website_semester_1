@@ -25,6 +25,7 @@ img {
     height: auto;
     border-width: 2px;
 }
+
 .border{
     border-style: solid;
     border-color: black;
@@ -119,7 +120,11 @@ p {
     box-shadow: 5px 5px 5px grey;
 }
 
-
+@media (min-width:900px){
+      .noschool{
+    width: 60%;
+}
+}
 
 @media (min-width: 600px) {
     .button {
