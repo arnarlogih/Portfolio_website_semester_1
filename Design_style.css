@@ -92,12 +92,10 @@ h2 {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
     font-size: 1.5em;
-    margin-top: 10;
 }
 
 p {
     font-size: 1em;
-    margin-top: 0;
     line-height: 1.5;
 }
 
@@ -303,7 +301,6 @@ nav a:focus {
     width: 5em;
     height: 5em;
     background-color: #80AED6;
-    margin: left;
     transition: 1s cubic-bezier(.12,.21,.19,.91);
 }
 
@@ -312,7 +309,6 @@ nav a:focus {
     height: 5em;
     background-color: steelblue;
     color: white;
-    margin: left;
     transition: 1s cubic-bezier(.12,.21,.19,.91);
 }
 
@@ -320,7 +316,6 @@ nav a:focus {
     width: 5em;
     height: 5em;
     background-color: darkorange;
-    margin: left;
     transition: 1s cubic-bezier(.12,.21,.19,.91);
 }
 .box4{
@@ -328,14 +323,12 @@ nav a:focus {
     height: 5em;
     background-color: black;
     color: white;
-    margin: left;
     transition: 1s cubic-bezier(.12,.21,.19,.91);
 }
 .box5{
     width: 5em;
     height: 5em;
     background-color: white;
-    margin: left;
     transition: 1s cubic-bezier(.12,.21,.19,.91);
 }
 

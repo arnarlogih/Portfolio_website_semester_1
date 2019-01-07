@@ -1,13 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
-* {
-
-    box-sizing: border-box;
-}
 
 html {
     background-image: linear-gradient(to bottom left, white, white, #80AED6);
-
 }
 
 
@@ -87,11 +82,6 @@ p {
 
     nav {
         float: right;
-    }
-}
-@media max-width: 600px) {
-    body {
-        text-align: center;
     }
 }
 
