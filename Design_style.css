@@ -27,7 +27,23 @@ img {
 .java{
     width: 50%;
     border-radius: 10px;
+}
 
+.prev{
+    float: left;
+    text-decoration: none;
+    color: steelblue;
+}
+
+.next{
+    float: right;
+    text-decoration: none;
+    color: steelblue;
+}
+
+.prev:hover,
+.next:hover{
+    color: darkorange;
 }
 
 .border{
@@ -51,6 +67,15 @@ img {
 }
 .spotify:hover{
     color: steelblue;
+}
+
+.bunny{
+    width: 200px;
+    height: 100%;
+}
+.elmer{
+    width: 300px;
+    height: 100%;
 }
 
 /* typography */
