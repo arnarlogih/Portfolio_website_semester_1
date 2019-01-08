@@ -5,11 +5,6 @@ html {
     background-image: linear-gradient(to bottom left, white, white, #80AED6);
 }
 
-
-header {
-    text-align: center;
-}
-
 body {
     margin: 1em;
     font-family: 'Raleway', sans-serif;
@@ -141,7 +136,7 @@ nav a:focus {
 
 .home-hero {
 
-    padding: 18em 0;
+    padding: 14em 0;
     color: black;
 }
 

@@ -15,10 +15,6 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-header{
-    text-align: center;
-}
-
 img {
     max-width: 100%;
     height: auto;
@@ -54,11 +50,14 @@ img {
     margin: 1em;
     text-align: center;
 }
+.moodboard{
+    float: right;
+}
 
 .container {
     width: 95%;
     max-width: 70em;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .spotify {
@@ -143,7 +142,6 @@ p {
     color: darkorange;
 }
 
-
 /* buttons */
 
 .button {
@@ -220,7 +218,7 @@ nav a:focus {
 
 
 .home-hero {
-    padding: 18em 0;
+    padding: 14em 0;
     color: black;
 }
 
