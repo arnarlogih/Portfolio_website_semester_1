@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
-* {
-
-    box-sizing: border-box;
-}
 
 html {
   background-image: linear-gradient(to bottom left, white, white, #80AED6);
@@ -18,13 +14,6 @@ body {
     margin: 1em;
     font-family: 'Raleway', sans-serif;
 }
-
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
 
 .container {
     width: 95%;
