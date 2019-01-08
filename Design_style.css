@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
 html {
-    background-image: linear-gradient(to bottom left, white, white,  #80AED6);
+    background-image: linear-gradient(to bottom left, white, white, #80AED6);
 
 }
 
@@ -15,29 +15,30 @@ img {
     height: auto;
     border-width: 2px;
 }
-.java{
+
+.java {
     width: 50%;
     border-radius: 10px;
 }
 
-.prev{
+.prev {
     float: left;
     text-decoration: none;
     color: steelblue;
 }
 
-.next{
+.next {
     float: right;
     text-decoration: none;
     color: steelblue;
 }
 
 .prev:hover,
-.next:hover{
+.next:hover {
     color: darkorange;
 }
 
-.border{
+.border {
     border-style: solid;
     border-color: black;
     box-shadow: 5px 5px 5px grey;
@@ -45,7 +46,8 @@ img {
     margin: 1em;
     text-align: center;
 }
-.moodboard{
+
+.moodboard {
     float: right;
 }
 
@@ -59,15 +61,17 @@ img {
     text-decoration: none;
     color: darkorange;
 }
-.spotify:hover{
+
+.spotify:hover {
     color: steelblue;
 }
 
-.bunny{
+.bunny {
     width: 200px;
     height: 100%;
 }
-.elmer{
+
+.elmer {
     width: 300px;
     height: 100%;
 }
@@ -114,10 +118,12 @@ p {
         font-size: 1.2em;
         line-height: 1.6;
     }
+
     .title {
         font-size: 3.7em;
     }
-     .button {
+
+    .button {
         font-size: 1.5rem;
     }
 
@@ -126,14 +132,14 @@ p {
     }
 }
 
-@media (min-width: 300px){
-    .arnar{
+@media (min-width: 300px) {
+    .arnar {
         padding-left: 15em;
         line-height: 3.3em;
     }
 }
 
-.current{
+.current {
     color: darkorange;
 }
 
@@ -156,7 +162,7 @@ p {
 }
 
 .button-accent:hover,
-.button-accent:focus{
+.button-accent:focus {
     color: black;
     background-color: white;
     border-color: black;
@@ -209,6 +215,7 @@ nav a:focus {
     height: 100%;
     float: left;
 }
+
 /* home hero */
 
 
@@ -223,6 +230,7 @@ nav a:focus {
 .Social {
     text-align: center;
 }
+
 .instagram {
     width: 30px;
     height: 30px;
@@ -290,45 +298,47 @@ nav a:focus {
 /*COLORS*/
 
 
-.box1{
+.box1 {
     width: 5em;
     height: 5em;
     background-color: #80AED6;
-    transition: 1s cubic-bezier(.12,.21,.19,.91);
+    transition: 1s cubic-bezier(.12, .21, .19, .91);
 }
 
-.box2{
+.box2 {
     width: 5em;
     height: 5em;
     background-color: steelblue;
     color: white;
-    transition: 1s cubic-bezier(.12,.21,.19,.91);
+    transition: 1s cubic-bezier(.12, .21, .19, .91);
 }
 
-.box3{
+.box3 {
     width: 5em;
     height: 5em;
     background-color: darkorange;
-    transition: 1s cubic-bezier(.12,.21,.19,.91);
+    transition: 1s cubic-bezier(.12, .21, .19, .91);
 }
-.box4{
+
+.box4 {
     width: 5em;
     height: 5em;
     background-color: black;
     color: white;
-    transition: 1s cubic-bezier(.12,.21,.19,.91);
+    transition: 1s cubic-bezier(.12, .21, .19, .91);
 }
-.box5{
+
+.box5 {
     width: 5em;
     height: 5em;
     background-color: white;
-    transition: 1s cubic-bezier(.12,.21,.19,.91);
+    transition: 1s cubic-bezier(.12, .21, .19, .91);
 }
 
 .box1:hover,
 .box2:hover,
 .box3:hover,
 .box4:hover,
-.box5:hover{
+.box5:hover {
     width: 75%;
 }

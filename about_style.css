@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
 html {
-    background-image: linear-gradient(to bottom left, white, white,  #80AED6);
+    background-image: linear-gradient(to bottom left, white, white, #80AED6);
 
 }
 
@@ -17,7 +17,7 @@ img {
     border-width: 2px;
 }
 
-.border{
+.border {
     border-style: solid;
     border-color: black;
     box-shadow: 5px 5px 5px grey;
@@ -34,7 +34,8 @@ img {
     text-decoration: none;
     color: darkorange;
 }
-.spotify:hover{
+
+.spotify:hover {
     color: steelblue;
 }
 
@@ -75,7 +76,7 @@ p {
 }
 
 
-.current{
+.current {
     color: darkorange;
 }
 
@@ -101,24 +102,25 @@ p {
 }
 
 .button-accent:hover,
-.button-accent:focus{
+.button-accent:focus {
     color: black;
     background-color: white;
     border-color: black;
     box-shadow: 5px 5px 5px grey;
 }
 
-@media (min-width:900px){
-      .noschool{
-    width: 60%;
-}
+@media (min-width:900px) {
+    .noschool {
+        width: 60%;
+    }
 }
 
 @media (min-width: 600px) {
     .button {
         font-size: 1.5em;
     }
-     p {
+
+    p {
         font-size: 1.2em;
         line-height: 1.6;
     }
@@ -132,8 +134,8 @@ p {
     }
 }
 
-@media (min-width: 300px){
-    .arnar{
+@media (min-width: 300px) {
+    .arnar {
         padding-left: 15em;
         line-height: 3.3em;
     }
@@ -181,6 +183,7 @@ nav a:focus {
     height: 100%;
     float: left;
 }
+
 /* home hero */
 
 
@@ -200,6 +203,7 @@ footer {
 .Social {
     text-align: center;
 }
+
 .instagram {
     width: 30px;
     height: 30px;
@@ -231,7 +235,7 @@ footer {
 .dribble:hover,
 .linkedIn:hover,
 .facebook:hover,
-.instagram:hover{
+.instagram:hover {
     background-color: steelblue;
     border-radius: 5px;
 }
