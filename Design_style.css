@@ -51,6 +51,12 @@ img {
     float: right;
 }
 
+.appImage{
+    width: 300px;
+    height: 100%;
+    float: right;
+}
+
 .container {
     width: 95%;
     max-width: 70em;
